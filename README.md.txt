@@ -11,7 +11,7 @@ Pre-requisite :
 ### Open the script:
 1. Open Anaconda Prompt (Anaconda3)
 2. Activate RDKit environment (conda activate my-rdkit-env)
-3. Go to the folder containing CATHEDREAL.ipynb (cd C:\...\...\...\...\CATHEDRAL)
+3. Go to the folder containing CATHEDREAL.ipynb (cd C: \...\...\...\...\CATHEDRAL)
 4. Open Jupyter Notebook application (jupyter notebook)
 5. Click on CATHEDRAL.ipynb 
 
@@ -23,4 +23,4 @@ The workflow is detailed, just inform the path to access:
   - resume file to save results
 Directly by running the cell:
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\input_files.png)
+![Plan de travail 11080](https://github.com/Jcrdnr/CATHEDRAL/blob/dev/pictures/input_files.png)
