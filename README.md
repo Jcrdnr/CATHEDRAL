@@ -1,15 +1,17 @@
 # CATHEDRAL
-CATHEDRAL is a python-based script designed to compare candidates generated from different annotation and classify according to pre-established confidence levels strategies.
+***CATHEDRAL is a python-based script designed to compare candidates generated from different annotation and classify according to pre-established confidence levels strategies.***
 
 ## Installation
 Pre-requisite :
-  - Python (you should install Anaconda Platform - https://www.anaconda.com/download)
-  - Jupyter Notebook application (Anaconda Platform)
-  - RDKit environment (c.f. https://www.rdkit.org/docs/Install.html)
+  - Python (you should install *Anaconda Platform* - https://www.anaconda.com/download)
+  - Jupyter Notebook application (*Anaconda Platform*)
+  - RDKit environment (*c.f.* https://www.rdkit.org/docs/Install.html)
   - Several libraries must be installed in the RDKit environment for the script to work:
-    1 - In an Anaconda Prompt, head for CATHEDRAL folder path (cd C:\...\...\...\...\CATHEDRAL)
+    1 - In an Anaconda Prompt, head for CATHEDRAL folder path (*cd C:/.../../../../CATHEDRAL*)
     2 - Activate your RDKit environement (conda activate my-rdkit-env)
-    2 - Write the command line: pip install -r requirements.txt (please, check requirements.txt file is in the CATHEDRAL folder)
+    2 - Write the command line: 
+    ```pip install -r requirements.txt``` 
+    *please, check requirements.txt file is in the CATHEDRAL folder*
 
 ![Plan de travail 11080](/pictures/cathedral_requirements.png)
 
