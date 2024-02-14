@@ -22,9 +22,9 @@ Pre-requisite :
 
 2. Resulting metadata table must be exported as pre_ranked_features.csv file
 3. New column (called PRED) is created in the dataframe:
-	* if feature has FBMN / IIMN annotation, PRED=1
-	* if feature has NAP (Metfrag) annotation, PRED=2
-	* else PRED=3
+	* if feature has FBMN / IIMN annotation, **PRED=1**
+	* if feature has NAP (Metfrag) annotation, **PRED=2**
+	* else **PRED=3**
 
 ![Plan de travail 11080](/pictures/cathedral_merge_pred.png)
 
