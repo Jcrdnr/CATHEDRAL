@@ -15,15 +15,15 @@ Pre-requisite :
 ![Plan de travail 11080](/pictures/cathedral_requirements.png)
 
 ## Prepare the pre_ranked_features.csv:
-   1 - Metadata from FBMN / IIMN, NAP and MolNetEnhancer workflows must be merged via Cytoscape software, according to the corresponding keys:
+1. Metadata from FBMN / IIMN, NAP and MolNetEnhancer workflows must be merged via Cytoscape software, according to the corresponding keys:
 
 ![Plan de travail 11080](/pictures/cathedral_merge.png)
 
-   2 - Resulting metadata table must be exported as pre_ranked_features.csv file.
-   3 - New column (called PRED) is created in the dataframe:
-       **if feature have FBMN / IIMN annotation, PRED=1
-       **if feature have NAP (Metfrag) annotation, PRED=2
-       **else PRED=3
+2. Resulting metadata table must be exported as pre_ranked_features.csv file
+3. New column (called PRED) is created in the dataframe:
+	* if feature have FBMN / IIMN annotation, PRED=1
+	* if feature have NAP (Metfrag) annotation, PRED=2
+	* else PRED=3
 
 ![Plan de travail 11080](/pictures/cathedral_merge_pred.png)
 
