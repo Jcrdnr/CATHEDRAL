@@ -11,12 +11,12 @@ Pre-requisite :
     2 - Activate your RDKit environement (conda activate my-rdkit-env)
     2 - Write the command line: pip install -r requirements.txt (please, check requirements.txt file is in the CATHEDRAL folder)
 
-![Plan de travail 11080](https://github.com/Jcrdnr/CATHEDRAL/tree/main/pictures/cathedral_requirements.svg)
+![Plan de travail 11080](https://github.com/Jcrdnr/CATHEDRAL/tree/main/pictures/cathedral_requirements.png)
 
 ## Prepare the pre_ranked_features.csv:
    1 - Metadata from FBMN / IIMN, NAP and MolNetEnhancer workflows must be merged via Cytoscape software, according to the corresponding keys:
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_merge.svg)
+![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_merge.png)
 
    2 - Resulting metadata table must be exported as pre_ranked_features.csv file.
    3 - New column (called PRED) is created in the dataframe:
@@ -24,7 +24,7 @@ Pre-requisite :
        **if feature have NAP (Metfrag) annotation, PRED=2
        **else PRED=3
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_merge_pred.svg)
+![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_merge_pred.png)
 
 ## Run the script
 ### Open the script:
@@ -34,7 +34,7 @@ Pre-requisite :
 4. Open Jupyter Notebook application (jupyter notebook)
 5. Click on CATHEDRAL.ipynb 
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_script.svg)
+![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_script.png)
 
 ### Run the script:
 The workflow is detailed, just inform the path to access:
