@@ -16,7 +16,7 @@ Pre-requisite :
 ## Prepare the pre_ranked_features.csv:
    1 - Metadata from FBMN / IIMN, NAP and MolNetEnhancer workflows must be merged via Cytoscape software, according to the corresponding keys:
 
-!C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_merge.png
+![Plan de travail 11080](/pictures/cathedral_merge.png)
 
    2 - Resulting metadata table must be exported as pre_ranked_features.csv file.
    3 - New column (called PRED) is created in the dataframe:
@@ -24,7 +24,7 @@ Pre-requisite :
        **if feature have NAP (Metfrag) annotation, PRED=2
        **else PRED=3
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_merge_pred.png)
+![Plan de travail 11080](/pictures/cathedral_merge_pred.png)
 
 ## Run the script
 ### Open the script:
@@ -34,7 +34,7 @@ Pre-requisite :
 4. Open Jupyter Notebook application (jupyter notebook)
 5. Click on CATHEDRAL.ipynb 
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_script.png)
+![Plan de travail 11080](/pictures/cathedral_script.png)
 
 ### Run the script:
 The workflow is detailed, just inform the path to access:
@@ -44,9 +44,9 @@ The workflow is detailed, just inform the path to access:
   - resume file to save results (comparison_results.tsv)
 directly by running the appropriate cell.
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\input_files.png)
+![Plan de travail 11080](/pictures/input_files.png)
 
-### Just follow the instructions until the end of the notebook :D
+### Just follow the instructions until the end of the notebook
   1 - First, features annoted with FBMN / IIMN (PRED=1) are first selected:
       1.3.2 - the script will highlight the common annotations for GNPS, NAP and SIRIUS worflows (confidence level = 9)
       1.3.3 - annotations that are common only for GNPS and NAP are secondly highlighted (confidence level = 12)
@@ -87,7 +87,7 @@ directly by running the appropriate cell.
       - Molecular_Name_SU: Name of the NMR compound if matched
       - Confidence_Level: the confidence level applied according to the in-house scale
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_results.png)
+![Plan de travail 11080](/pictures/cathedral_results.png)
 
 
       
