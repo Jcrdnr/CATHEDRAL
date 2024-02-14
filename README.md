@@ -16,14 +16,18 @@ Pre-requisite :
 ![Plan de travail 11080](/pictures/cathedral_requirements.png)
 
 ## Prepare the pre_ranked_features.csv:
-1. Metadata from FBMN / IIMN, NAP and MolNetEnhancer workflows must be merged via Cytoscape software, according to the corresponding keys:
+1. Metadata from FBMN / IIMN, NAP and MolNetEnhancer workflows must be merged *via* Cytoscape software, according to the corresponding keys:
+	* row ID (IIMN)
+	* #Scan# (FBMN)
+	* cluster.index (NAP)
+	* cluster.index (MolNetEnhancer)
 
 ![Plan de travail 11080](/pictures/cathedral_merge.png)
 
 2. Resulting metadata table must be exported as pre_ranked_features.csv file
-3. New column (called PRED) is created in the dataframe:
-	* if feature has FBMN / IIMN annotation, **PRED=1**
-	* if feature has NAP (Metfrag) annotation, **PRED=2**
+3. New column (called PRED) must be manually created in the dataframe:
+	* if a feature has FBMN / IIMN annotation, **PRED=1**
+	* if a feature has NAP (Metfrag) annotation, **PRED=2**
 	* else **PRED=3**
 
 ![Plan de travail 11080](/pictures/cathedral_merge_pred.png)
@@ -40,7 +44,7 @@ Pre-requisite :
 
 ### Run the script:
 The workflow is detailed, just inform the path to access:
-  - pre-scored features according to FBMN, NAP matches resuls (pre_ranked_features.csv)
+  - pre-scored features according to FBMN, NAP matches (pre_ranked_features.csv)
   - SIRIUS project (must end with /*)
   - NMR candidates file (caramel_compounds.txt)
   - resume file to save results (comparison_results.tsv)
