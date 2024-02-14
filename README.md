@@ -1,7 +1,7 @@
 # CATHEDRAL
-***CATHEDRAL is a python-based script designed to compare candidates generated from different annotation tools and to classify them according to pre-established confidence levels strategies.***
+***CATHEDRAL (Compare All THE DiffeRent Annotation Tools) is a python-based script designed to compare structural candidates generated from different annotation tools/strategies. In addition, CATHEDRAL enables to rank annotions according to pre-established hierarchical confidence levels.***
 
-## Installation
+## Setup
 Pre-requisite :
 - Python (you should install *Anaconda Platform* - https://www.anaconda.com/download)
 - Jupyter Notebook application (*Anaconda Platform*)
