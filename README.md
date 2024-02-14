@@ -65,14 +65,14 @@ directly by running the appropriate cell.
 	2. *(2.2)* common annotations for NAP and SIRIUS are then compared to NMR compounds list **(confidence level = 3)**
 
 3. Thirdly, annotations from individual annotation tool (FBMN / IIMN, NAP or SIRIUS) are compared to NMR compounds list, only for the remaing features that do not have a common candidate through at least 2 different mass annotation tools:
-	1. *(3.3.1)* FBMN / IIMN vs. NMR **(confidence level = 5)**
-	2. *(3.3.2)* NAP vs. NMR **(confidence level = 7, for each of the 3 Metfrag candidates)**
-	3. *(3.5.2)* SIRIUS vs. NMR **(confidence level = 6)**
+	1. *(3.3.1)* FBMN / IIMN *vs.* NMR **(confidence level = 5)**
+	2. *(3.3.2)* NAP *vs.* NMR **(confidence level = 7, for each of the 3 Metfrag candidates)**
+	3. *(3.5.2)* SIRIUS *vs.* NMR **(confidence level = 6)**
 
 4. If an annotation is common to 2 mass annotation tools, the third one is compared to NMR coupounds list:
-	1. *(4.1.1)* FBMN / IIMN vs. NMR
-	2. *(4.1.2)* NAP vs. NMR
-	3. *(4.1.3)* SIRIUS vs. NMR
+	1. *(4.1.1)* FBMN / IIMN *vs.* NMR
+	2. *(4.1.2)* NAP *vs.* NMR
+	3. *(4.1.3)* SIRIUS *vs.* NMR
       
 5. Finally, comparison results are summarized in comparison_results.tsv file:
 	* Feature_SU: feature ID of the annotation
