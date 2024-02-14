@@ -55,7 +55,8 @@ directly by running the appropriate cell.
 	3. *(1.3.4)* same for annotation that are common only for GNPS and SIRIUS **(confidence level = 10)**
 	4. *(1.3.5)* SIRIUS NAP common annotations are finally retrieved **(confidence level =11+)**
 	5. *(1.4)* each of previous classified annotations is then compared to NMR compounds:
-		* *(1.4.2)* if GNPS NAP SIRIUS common annotation is found in NMR compounds list **(confidence level = 1)**
+		
+* *(1.4.2)* if GNPS NAP SIRIUS common annotation is found in NMR compounds list **(confidence level = 1)**
            	* *(1.4.3)* if GNPS NAP common annotation is found in NMR compounds list **(confidence level = 4)**
            	* *(1.4.4)* if GNPS SIRIUS common annotation is found in NMR compounds list **(confidence level = 2)**
            	* *(1.4.5)* if SIRIUS NAP common annotation is found in NMR compounds list **(confidence level = 3+)**
