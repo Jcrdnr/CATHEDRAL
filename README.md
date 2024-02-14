@@ -52,6 +52,8 @@ directly by running the appropriate cell.
       1.3.3 - annotations that are common only for GNPS and NAP are secondly highlighted (confidence level = 12)
       1.3.4 - ame for annotation that are common only for GNPS and SIRIUS (confidence level = 10)
       1.3.5 - SIRIUS NAP common annotations are finally retrieved (confidence level =11+)
+      
+
       1.4 - each of previous classified annotations is then compared to NMR compounds:
            1.4.2 - if GNPS NAP SIRIUS common annotation is found in NMR compounds list, confidence level = 1
            1.4.3 - if GNPS NAP common annotation is found in NMR compounds list, confidence level = 4
