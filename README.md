@@ -49,30 +49,30 @@ directly by running the appropriate cell.
 ![Plan de travail 11080](/pictures/input_files.png)
 
 ### Just follow the instructions until the end of the notebook
-1. First, features annoted with FBMN / IIMN (PRED=1) are first selected:
-	1. (1.3.2) the script will highlight the common annotations for GNPS, NAP and SIRIUS worflows (confidence level = 9)
-	2. (1.3.3) annotations that are common only for GNPS and NAP are secondly highlighted (confidence level = 12)
-	3. (1.3.4) same for annotation that are common only for GNPS and SIRIUS (confidence level = 10)
-	4. (1.3.5) SIRIUS NAP common annotations are finally retrieved (confidence level =11+)
-	5. (1.4) each of previous classified annotations is then compared to NMR compounds:
-			1.4.2. if GNPS NAP SIRIUS common annotation is found in NMR compounds list, confidence level = 1
-           		1.4.3. if GNPS NAP common annotation is found in NMR compounds list, confidence level = 4
-           		1.4.4. if GNPS SIRIUS common annotation is found in NMR compounds list, confidence level = 2
-           		1.4.5. if SIRIUS NAP common annotation is found in NMR compounds list, confidence level = 3+
+1. First, features annoted with FBMN / IIMN **(PRED=1)** are first selected:
+	1. *(1.3.2)* the script will highlight the common annotations for GNPS, NAP and SIRIUS worflows **(confidence level = 9)**
+	2. *(1.3.3)* annotations that are common only for FBMN / IIMN and NAP are secondly highlighted **(confidence level = 12)**
+	3. *(1.3.4)* same for annotation that are common only for GNPS and SIRIUS **(confidence level = 10)**
+	4. *(1.3.5)* SIRIUS NAP common annotations are finally retrieved **(confidence level =11+)**
+	5. *(1.4)* each of previous classified annotations is then compared to NMR compounds:
+		* *(1.4.2)* if GNPS NAP SIRIUS common annotation is found in NMR compounds list **(confidence level = 1)**
+           	* *(1.4.3)* if GNPS NAP common annotation is found in NMR compounds list **(confidence level = 4)**
+           	* *(1.4.4)* if GNPS SIRIUS common annotation is found in NMR compounds list **(confidence level = 2)**
+           	* *(1.4.5)* if SIRIUS NAP common annotation is found in NMR compounds list **(confidence level = 3+)**
 
-2. Secondly, features that were not annotated with FBMN / IIMN but are with NAP (MetFrag, PRED=2) are considered:
-	2.1. annotations for NAP and SIRIUS are compared for single features (confidence level = 11)
-	2.2. common annotations for NAP and SIRIUS are then compared to NMR compounds list, confidence level = 3
+2. Secondly, features that were not annotated with FBMN / IIMN but are with NAP **(MetFrag, PRED=2)** are considered:
+	1. *(2.1)* annotations for NAP and SIRIUS are compared for single features **(confidence level = 11)**
+	2. *(2.2)* common annotations for NAP and SIRIUS are then compared to NMR compounds list **(confidence level = 3)**
 
 3. Thirdly, annotations from individual annotation tool (FBMN / IIMN, NAP or SIRIUS) are compared to NMR compounds list, only for the remaing features that do not have a common candidate through at least 2 different mass annotation tools:
-	3.3.1. FBMN / IIMN vs. NMR (confidence level = 5)
-	3.3.2. NAP vs. NMR (confidence level = 7, for each of the 3 Metfrag candidates)
-	3.5.2. SIRIUS vs. NMR (confidence level = 6)
+	1. *(3.3.1)* FBMN / IIMN vs. NMR **(confidence level = 5)**
+	2. *(3.3.2)* NAP vs. NMR **(confidence level = 7, for each of the 3 Metfrag candidates)**
+	3. *(3.5.2)* SIRIUS vs. NMR **(confidence level = 6)**
 
 4. If an annotation is common to 2 mass annotation tools, the third one is compared to NMR coupounds list:
-	4.1.1. FBMN / IIMN vs. NMR
-	4.1.2. NAP vs. NMR
-	4.1.3. SIRIUS vs. NMR
+	1. *(4.1.1)* FBMN / IIMN vs. NMR
+	2. *(4.1.2)* NAP vs. NMR
+	3. *(4.1.3)* SIRIUS vs. NMR
       
 5. Finally, comparison results are summarized in comparison_results.tsv file:
 	* Feature_SU: feature ID of the annotation
