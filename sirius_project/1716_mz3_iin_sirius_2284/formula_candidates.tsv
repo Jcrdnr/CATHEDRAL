@@ -1,0 +1,2 @@
+rank	molecularFormula	adduct	precursorFormula	ZodiacScore	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C40H62O5	[M + Na]+	C40H62O5	0.9999999999999999	2098.3257994272503	2098.3257994272503	0.0	28	0.5658736249680225	0.9360621357674339	4.152079567322586	0.8123412041439309	DG(20:5_17:3)

@@ -1,0 +1,2 @@
+rank	formulaRank	ConfidenceScore	CSI:FingerIDScore	molecularFormula	adduct	InChIkey2D	InChI	name	smiles	xlogp	pubchemids	links	dbflags
+1	1	0.016063715559249153	-273.20099571228167	C13H16O4	[M - H2O + H]+	RYPQHAKCQSXFGH	InChI=1S/C13H16O4/c1-3-4-9-5-8-6-10(16-2)7-11(14)12(8)13(15)17-9/h6-7,9,14H,3-5H2,1-2H3	1H-2-Benzopyran-1-one, 3,4-dihydro-8-hydroxy-6-methoxy-3-propyl-	CCCC1CC2=C(C(=CC(=C2)OC)O)C(=O)O1	3.29999995	15391028;23241778	COCONUT:(CNP0114247);Natural Products:(UNPD26281);PubChem:(15391028 23241778);PNC:(LTS0248068 LTS0018577);PubMed	68721606722

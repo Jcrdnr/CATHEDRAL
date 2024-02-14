@@ -1,0 +1,2 @@
+rank	molecularFormula	adduct	precursorFormula	ZodiacScore	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C21H40S	[M + H]+	C21H40S	0.9999999999999999	-0.6472331960152595	-0.6472331960152595	0.0	1	0.0	0.465021202373442	0.465021202373442	0.36961524551791775	

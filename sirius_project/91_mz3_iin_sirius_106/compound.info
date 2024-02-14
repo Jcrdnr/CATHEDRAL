@@ -1,0 +1,7 @@
+index	91
+name	mz3_iin_sirius_106
+ionMass	215.12582617423087
+ionType	[M + ?]+
+detectedAdducts	MS1_PREPROCESSOR:{[M + K]+}
+rt	210.03017641603947:NaN,NaN
+rankingScoreType	sirius.scores.SiriusScore

@@ -1,0 +1,2 @@
+rank	molecularFormula	adduct	precursorFormula	ZodiacScore	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C20H45N2O	[M + Na]+	C20H45N2O	0.9999999999999999	1.534719698242493	1.0	0.5347196982424931	1	0.0	NaN	NaN	-6.6510043323925565	

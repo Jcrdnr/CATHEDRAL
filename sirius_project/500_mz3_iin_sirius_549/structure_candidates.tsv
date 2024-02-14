@@ -1,0 +1,2 @@
+rank	formulaRank	ConfidenceScore	CSI:FingerIDScore	molecularFormula	adduct	InChIkey2D	InChI	name	smiles	xlogp	pubchemids	links	dbflags
+1	1	0.06184303912289522	-95.45587110066822	C18H34O5	[M - H4O2 + H]+	XSKPTXLSWNXFMY	InChI=1S/C18H34O5/c19-16(13-9-5-3-7-11-15-18(22)23)12-8-4-1-2-6-10-14-17(20)21/h16,19H,1-15H2,(H,20,21)(H,22,23)	9-hydroxyoctadecanedioic acid	C(CCCCC(=O)O)CCCC(CCCCCCCC(=O)O)O	4.5	22000992	COCONUT:(CNP0307682);Natural Products:(UNPD7994);PubChem:(22000992);PNC:(LTS0160542 LTS0172055);SuperNatural:(SN00337783)	68722655234

@@ -1,0 +1,6 @@
+index	769
+name	mz3_iin_sirius_922
+ionMass	301.21698209975557
+ionType	[M + Na]+
+rt	871.6000074068538:NaN,NaN
+rankingScoreType	GibbsSampling.ZodiacScore,sirius.scores.SiriusScore

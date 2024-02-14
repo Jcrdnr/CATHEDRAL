@@ -1,0 +1,6 @@
+###### Requirements for CATHEDRAL script ######
+#math
+#glob
+pandas
+#stat
+tqdm

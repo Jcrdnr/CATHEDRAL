@@ -1,0 +1,8 @@
+index	146
+name	mz3_iin_sirius_168
+ionMass	147.04466118796066
+ionType	[M + ?]+
+detectedAdducts	MS1_PREPROCESSOR:{[M - H2O + H]+,[M - H4O2 + H]+}
+rt	244.8859691619873:NaN,NaN
+confidenceScore	0.3297451495779009
+rankingScoreType	GibbsSampling.ZodiacScore,sirius.scores.SiriusScore

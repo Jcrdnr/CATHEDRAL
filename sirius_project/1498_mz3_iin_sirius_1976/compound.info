@@ -1,0 +1,7 @@
+index	1498
+name	mz3_iin_sirius_1976
+ionMass	617.4414313572267
+ionType	[M + ?]+
+detectedAdducts	MS1_PREPROCESSOR:{[M + K]+,[M - H2O + H]+,[M - H4O2 + H]+}
+rt	1293.6830520629883:NaN,NaN
+rankingScoreType	GibbsSampling.ZodiacScore,sirius.scores.SiriusScore

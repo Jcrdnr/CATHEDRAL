@@ -1,0 +1,3 @@
+rank	molecularFormula	adduct	precursorFormula	ZodiacScore	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C25H49NO3	[M + H]+	C25H49NO3	0.9999999999999999	8.564814449491328	8.564814449491328	0.0	3	0.12236533957845433	2.3743176114702935	2.3743176114702935	2.3530183438598655	
+2	C28H47N2	[M + H]+	C28H47N2	0.0	-3.9908438256027363	-3.9908438256027363	0.0	1	0.0	-4.124734838979098	4.124734838979098	-4.146034245014912	

@@ -1,0 +1,7 @@
+index	616
+name	mz3_iin_sirius_689
+ionMass	389.19437551449
+ionType	[M + ?]+
+detectedAdducts	MS1_PREPROCESSOR:{}
+rt	766.8019866943359:NaN,NaN
+rankingScoreType	GibbsSampling.ZodiacScore,sirius.scores.SiriusScore

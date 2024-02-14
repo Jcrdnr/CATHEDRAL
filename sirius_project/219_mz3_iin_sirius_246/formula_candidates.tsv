@@ -1,0 +1,5 @@
+rank	molecularFormula	adduct	precursorFormula	ZodiacScore	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C10H12O2	[M + H]+	C10H12O2	0.9984924623115576	3.5	3.5	0.0	1	0.0	NaN	NaN	2.052027522220004	
+2	C8H10N3O	[M + H]+	C8H10N3O	0.0015075376884422112	-3.605170185988091	-3.605170185988091	0.0	1	0.0	NaN	NaN	10.185003852648064	
+3	C8H16N	[M + K]+	C8H16N	0.0	-3.605170185988091	-3.605170185988091	0.0	1	0.0	NaN	NaN	-0.5316088300339905	
+4	C5H14N3OS	[M + H]+	C5H14N3OS	0.0	-5.214608098422191	-5.214608098422191	0.0	1	0.0	NaN	NaN	-10.234770443212346	
