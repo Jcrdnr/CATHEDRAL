@@ -7,7 +7,7 @@ Pre-requisite :
 - Jupyter Notebook application (*Anaconda Platform*)
 - RDKit environment (*c.f.* https://www.rdkit.org/docs/Install.html)
 - Several libraries must be installed in the RDKit environment for the script to work:
-	* In an Anaconda Prompt, head for CATHEDRAL folder path: ```cd C:/.../../../../CATHEDRAL```
+	* In an Anaconda Prompt, head for CATHEDRAL folder path: ```cd C:/../../../../CATHEDRAL```
  	* Activate your RDKit environement: ```conda activate my-rdkit-env```
  	* Write the command line: ```pip install -r requirements.txt```
 
@@ -32,7 +32,7 @@ Pre-requisite :
 ### Open the script:
 1. Open Anaconda Prompt
 2. Activate RDKit environment: ```conda activate my-rdkit-env```
-3. Go to the folder containing CATHEDREAL.ipynb: ```cd *\CATHEDRAL\```
+3. Go to the folder containing CATHEDREAL.ipynb: ```cd C:/../../../../CATHEDRAL```
 4. Open Jupyter Notebook application: ```jupyter notebook```
 5. Click on **CATHEDRAL.ipynb** 
 
