@@ -3,13 +3,13 @@
 
 ## Installation
 Pre-requisite :
-  - Python (you should install *Anaconda Platform* - https://www.anaconda.com/download)
-  - Jupyter Notebook application (*Anaconda Platform*)
-  - RDKit environment (*c.f.* https://www.rdkit.org/docs/Install.html)
-  - Several libraries must be installed in the RDKit environment for the script to work:
-    1 - In an Anaconda Prompt, head for CATHEDRAL folder path: ```cd C:/.../../../../CATHEDRAL```
-    2 - Activate your RDKit environement: ```conda activate my-rdkit-env```
-    2 - Write the command line: ```pip install -r requirements.txt``` 
+  1. Python (you should install *Anaconda Platform* - https://www.anaconda.com/download)
+  2. Jupyter Notebook application (*Anaconda Platform*)
+  3. RDKit environment (*c.f.* https://www.rdkit.org/docs/Install.html)
+  4. Several libraries must be installed in the RDKit environment for the script to work:
+    * In an Anaconda Prompt, head for CATHEDRAL folder path: ```cd C:/.../../../../CATHEDRAL```
+    * Activate your RDKit environement: ```conda activate my-rdkit-env```
+    * Write the command line: ```pip install -r requirements.txt``` 
 *please, check requirements.txt file is in the CATHEDRAL folder*
 
 ![Plan de travail 11080](/pictures/cathedral_requirements.png)
