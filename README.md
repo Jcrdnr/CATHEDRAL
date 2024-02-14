@@ -16,7 +16,7 @@ Pre-requisite :
 ## Prepare the pre_ranked_features.csv:
    1 - Metadata from FBMN / IIMN, NAP and MolNetEnhancer workflows must be merged via Cytoscape software, according to the corresponding keys:
 
-![Plan de travail 11080](C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_merge.png)
+!C:\Users\jcrdnr\Documents\GitHub\CATHEDRAL\cathedral_merge.png
 
    2 - Resulting metadata table must be exported as pre_ranked_features.csv file.
    3 - New column (called PRED) is created in the dataframe:
