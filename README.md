@@ -31,10 +31,10 @@ Pre-requisite :
 ## Run the script
 ### Open the script:
 1. Open Anaconda Prompt
-2. Activate RDKit environment (conda activate my-rdkit-env)
+2. Activate RDKit environment: ```conda activate my-rdkit-env```
 3. Go to the folder containing CATHEDREAL.ipynb: ```cd *\CATHEDRAL\```
 4. Open Jupyter Notebook application: ```jupyter notebook```
-5. Click on CATHEDRAL.ipynb 
+5. Click on **CATHEDRAL.ipynb** 
 
 ![Plan de travail 11080](/pictures/cathedral_script.png)
 
