@@ -1,5 +1,5 @@
 # CATHEDRAL
-***CATHEDRAL is a python-based script designed to compare candidates generated from different annotation and classify according to pre-established confidence levels strategies.***
+***CATHEDRAL is a python-based script designed to compare candidates generated from different annotation tools and to classify them according to pre-established confidence levels strategies.***
 
 ## Installation
 Pre-requisite :
