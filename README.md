@@ -11,7 +11,7 @@ Pre-requisite :
     2 - Activate your RDKit environement (conda activate my-rdkit-env)
     2 - Write the command line: pip install -r requirements.txt (please, check requirements.txt file is in the CATHEDRAL folder)
 
-![Plan de travail 11080](https://github.com/Jcrdnr/CATHEDRAL/tree/main/pictures/cathedral_requirements.png)
+![Plan de travail 11080](/pictures/cathedral_requirements.png)
 
 ## Prepare the pre_ranked_features.csv:
    1 - Metadata from FBMN / IIMN, NAP and MolNetEnhancer workflows must be merged via Cytoscape software, according to the corresponding keys:
